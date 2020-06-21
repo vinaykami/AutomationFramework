@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7072" started-at="2020-06-21T16:42:35Z" finished-at="2020-06-21T16:42:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7072" started-at="2020-06-21T16:42:35Z" finished-at="2020-06-21T16:42:42Z">
+      <class name="com.test.scenarios.Demo">
+        <test-method status="PASS" signature="dispay()[pri:0, instance:com.test.scenarios.Demo@4c70fda8]" name="dispay" duration-ms="9" started-at="2020-06-21T16:42:35Z" finished-at="2020-06-21T16:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispay -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.test.scenarios.Demo@4c70fda8]" name="googleSearch" duration-ms="6996" started-at="2020-06-21T16:42:35Z" description="launch google and search" finished-at="2020-06-21T16:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.scenarios.Demo@4c70fda8]" name="tearDown" is-config="true" duration-ms="43" started-at="2020-06-21T16:42:42Z" finished-at="2020-06-21T16:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.scenarios.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
