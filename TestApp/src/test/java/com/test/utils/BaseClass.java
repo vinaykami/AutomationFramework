@@ -1,4 +1,4 @@
-package com.test.scenarios;
+package com.test.utils;
 
 import org.openqa.selenium.WebDriver;
 
