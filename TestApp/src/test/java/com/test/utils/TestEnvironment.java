@@ -49,7 +49,7 @@ public class TestEnvironment {
 					throw new Exception(browser + " browser not Found");
 				}
 
-			} else if (System.getProperty("os.name").contains("Widows")) {
+			} else if (System.getProperty("os.name").contains("Windows")) {
 
 				System.setProperty("webdriver.chrome.driver", "./drivers/mac/chromedriver.exe");
 
