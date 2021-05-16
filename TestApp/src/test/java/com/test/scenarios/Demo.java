@@ -14,6 +14,7 @@ public class Demo extends ProjectUtils {
 		getDriver().findElement(By.name("q")).sendKeys("oneplus 6T");
 		getDriver().findElement(By.name("q")).sendKeys(Keys.ENTER);
 
+		System.out.println();
 	}
 
 }
