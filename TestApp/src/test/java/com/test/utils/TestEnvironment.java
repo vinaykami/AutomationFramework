@@ -1,71 +1,34 @@
 package com.test.utils;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.safari.SafariDriver;
+import java.io.FileReader;
+import java.util.Properties;
 
 public class TestEnvironment {
 
-	private static WebDriver driver = null;
+	public String browser;
 
-	public static String browser = "chrome";
+	public String baseURL;
 
-	public WebDriver getDriver() {
-
-		if (driver == null)
-			initDriver();
-
-		return driver;
+	public TestEnvironment() {
 
 	}
 
-	private void initDriver() {
+	public static String getProperty(String propertyKey) {
+		String returnVal = null;
 
+		FileReader reader;
 		try {
-			if (System.getProperty("os.name").contains("Mac OS X")) {
+			reader = new FileReader("./config.properties");
+			Properties p = new Properties();
+			p.load(reader);
+			returnVal = p.getProperty(propertyKey);
 
-				if (browser.equalsIgnoreCase("CHROME")) {
-
-					System.setProperty("webdriver.chrome.driver", System.getProperty("user.home")
-							+ "/.m2/repository/org/seleniumhq/selenium/chromedriver/77.0.3865.40/chromedriver-77.0.3865.40-mac64.bin");
-
-					driver = new ChromeDriver();
-
-				} else if (browser.equalsIgnoreCase("IE")) {
-
-					System.setProperty("webdriver.chrome.driver", "./drivers/mac/chromedriver");
-
-					driver = new InternetExplorerDriver();
-
-				} else if (browser.equalsIgnoreCase("SAFARI")) {
-
-					System.setProperty("webdriver.chrome.driver", "./drivers/mac/chromedrivermac64.bin");
-
-					driver = new SafariDriver();
-
-				} else {
-
-					throw new Exception(browser + " browser not Found");
-				}
-
-			} else if (System.getProperty("os.name").contains("Windows")) {
-
-				System.setProperty("webdriver.chrome.driver", "./drivers/mac/chromedriver.exe");
-
-			} else if (System.getProperty("os.name").contains("Linux")) {
-
-				System.setProperty("webdriver.chrome.driver", "./drivers/mac/chromedriver");
-
-			} else {
-
-				throw new Exception("Driver cannot be instantiated");
-			}
 		} catch (Exception e) {
-			// TODO: handle exception
-			System.out.println("Cannot be instantiated");
+			// TODO Auto-generated catch block
+			e.getMessage();
 		}
 
+		return returnVal;
 	}
 
 }
