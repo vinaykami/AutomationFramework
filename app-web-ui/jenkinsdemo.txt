@@ -3,4 +3,5 @@ trying second commit
 trying third commit
 trying fourth commit
 trying fifth commit
-rying sixth commit
+trying sixth commit
+trying seventh commit
