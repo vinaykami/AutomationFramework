@@ -9,5 +9,6 @@ public class Demo {
 
 		System.out.println("this is my fist git program");
 		System.out.println("Hello world!");
+		System.out.println("execute from jenkins");
 	}
 }
