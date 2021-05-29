@@ -18,6 +18,8 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+        
+        System.out.println("app  test started");
     }
 
     /**
@@ -34,5 +36,11 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+    
+    @org.junit.Test
+    public void test1() {
+    	
+    	System.out.println("Junit tests started");
     }
 }
