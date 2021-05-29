@@ -4,8 +4,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.test</groupId>
 	<artifactId>app-web-ui</artifactId>
-	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
 	<name>app-web-ui</name>
 	<url>http://maven.apache.org</url>
 
