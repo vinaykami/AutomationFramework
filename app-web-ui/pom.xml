@@ -5,7 +5,7 @@
 	<groupId>com.test</groupId>
 	<artifactId>app-web-ui</artifactId>
 	<name>app-web-ui</name>
-	<version>1.2</version>
+	<version>1.0</version>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -25,37 +25,18 @@
 						<target>1.8</target>
 					</configuration>
 				</plugin>
-
-				<plugin>
-					<artifactId>maven-antrun-plugin</artifactId>
-					<version>1.7</version>
-					<executions>
-						<execution>
-							<phase>generate-sources</phase>
-							<configuration>
-								<tasks>
-
-									<!-- Place any ant task here. You can add anything you can add between 
-										<target> and </target> in a build.xml. -->
-
-								</tasks>
-							</configuration>
-							<goals>
-								<goal>run</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
-			<scope>test</scope>
+			<version>4.13.2</version>
 		</dependency>
+
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
