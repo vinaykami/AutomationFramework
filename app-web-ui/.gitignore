@@ -1,3 +1,4 @@
 glide.it.local.properties
 /target/
 /bin
+.DS_Store
