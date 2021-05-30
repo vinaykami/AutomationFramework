@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
 	<test name="Test">
+
 		<classes>
+			<parameter name="className" value="${class.Name}" />
 			<class name="com.test.NewTest" />
-			<class name="com.test.SampleTest"></class>
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
