@@ -3,8 +3,8 @@
 	<test name="Test">
 
 		<classes>
-			<parameter name="className" value="${class.Name}" />
-			<class name="com.test.NewTest" />
+		
+			<class name="${class.Name}" />
 
 		</classes>
 	</test> <!-- Test -->
