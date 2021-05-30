@@ -4,7 +4,7 @@
 
 		<classes>
 		
-			<class name="${class.Name}" />
+			<class name="${testName}" />
 
 		</classes>
 	</test> <!-- Test -->
