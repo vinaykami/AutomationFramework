@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7072" started-at="2020-06-21T16:42:35Z" finished-at="2020-06-21T16:42:42Z">
+  <suite name="Default suite" duration-ms="12310" started-at="2020-07-30T13:29:00Z" finished-at="2020-07-30T13:29:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7072" started-at="2020-06-21T16:42:35Z" finished-at="2020-06-21T16:42:42Z">
+    <test name="Default test" duration-ms="12310" started-at="2020-07-30T13:29:00Z" finished-at="2020-07-30T13:29:12Z">
       <class name="com.test.scenarios.Demo">
-        <test-method status="PASS" signature="dispay()[pri:0, instance:com.test.scenarios.Demo@4c70fda8]" name="dispay" duration-ms="9" started-at="2020-06-21T16:42:35Z" finished-at="2020-06-21T16:42:35Z">
+        <test-method status="PASS" signature="amazonTest()[pri:0, instance:com.test.scenarios.Demo@224edc67]" name="amazonTest" duration-ms="10669" started-at="2020-07-30T13:29:00Z" finished-at="2020-07-30T13:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method status="PASS" signature="dispay()[pri:0, instance:com.test.scenarios.Demo@224edc67]" name="dispay" duration-ms="1" started-at="2020-07-30T13:29:10Z" finished-at="2020-07-30T13:29:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dispay -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.test.scenarios.Demo@4c70fda8]" name="googleSearch" duration-ms="6996" started-at="2020-06-21T16:42:35Z" description="launch google and search" finished-at="2020-06-21T16:42:42Z">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.test.scenarios.Demo@224edc67]" name="googleSearch" duration-ms="1509" started-at="2020-07-30T13:29:10Z" description="launch google and search" finished-at="2020-07-30T13:29:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.scenarios.Demo@4c70fda8]" name="tearDown" is-config="true" duration-ms="43" started-at="2020-06-21T16:42:42Z" finished-at="2020-06-21T16:42:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.scenarios.Demo@224edc67]" name="tearDown" is-config="true" duration-ms="109" started-at="2020-07-30T13:29:12Z" finished-at="2020-07-30T13:29:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
