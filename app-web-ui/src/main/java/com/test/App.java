@@ -1,13 +1,14 @@
 package com.test;
 
+import org.testng.annotations.Test;
+
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Modified Hello World!" );
-    }
+public class App {
+	@Test
+	public void testmeth() {
+		System.out.println("sample");
+	}
 }
