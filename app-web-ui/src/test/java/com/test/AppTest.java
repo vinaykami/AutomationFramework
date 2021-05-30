@@ -33,7 +33,7 @@ public class AppTest extends TestCase {
 		assertTrue(true);
 	}
 
-	@org.junit.Test
+	@org.testng.annotations.Test
 	public void test1() {
 
 		System.out.println("Junit tests started");
