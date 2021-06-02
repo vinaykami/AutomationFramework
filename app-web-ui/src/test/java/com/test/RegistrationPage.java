@@ -4,15 +4,15 @@ import org.testng.annotations.Test;
 
 public class RegistrationPage {
 
-	@Test(groups={"smoke"})
-	public void testSample() {
+	@Test(groups = { "smoke" })
+	public void registration() {
 
-		System.out.println("This is smoke test from Sample Test class");
+		System.out.println("Smoke test: User registered successfully");
 	}
-	
-	@Test(groups={"smoke"})
-	public void registration(){
-		
-		System.out.println("User registered successfully");
+
+	@Test(groups = { "regression" })
+	public void regTest() {
+
+		System.out.println("Regression test: user registered successfully");
 	}
 }

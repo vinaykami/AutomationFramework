@@ -3,20 +3,15 @@ package com.test;
 import org.testng.annotations.Test;
 
 public class LoginPage {
-	@Test
-	public void testMeth1() {
 
-		System.out.println("this should not get executed");
-	}
-
-	@Test(groups={"smoke"})
+	@Test(groups = { "smoke" })
 	public void testMeth2() {
 
-		System.out.println("User logged in successfully");
+		System.out.println("Smoke test : User logged in successfully");
 	}
 
-	public void normalMethod(){
-		
-		System.out.println("this is normal method");
+	@Test(groups = { "regression" })
+	public void regTest() {
+		System.out.println("Regression test: User logged in successfully");
 	}
 }
