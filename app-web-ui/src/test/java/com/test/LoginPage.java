@@ -15,4 +15,8 @@ public class LoginPage {
 		System.out.println("User logged in successfully");
 	}
 
+	public void normalMethod(){
+		
+		System.out.println("this is normal method");
+	}
 }
