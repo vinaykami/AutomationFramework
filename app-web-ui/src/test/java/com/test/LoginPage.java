@@ -2,17 +2,17 @@ package com.test;
 
 import org.testng.annotations.Test;
 
-public class NewTest {
+public class LoginPage {
 	@Test
 	public void testMeth1() {
 
 		System.out.println("this is test method 1");
 	}
 
-	@Test
+	@Test(groups={"smoke"})
 	public void testMeth2() {
 
-		System.out.println("this is test method 2");
+		System.out.println("User logged in successfully");
 	}
 
 }

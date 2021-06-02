@@ -33,8 +33,11 @@
 					<version>2.12.4</version>
 					<configuration>
 						<systemPropertyVariables>
-							<testName>${testName}}</testName>
+							<testName>${testName}</testName>
 						</systemPropertyVariables>
+						<properties>
+						
+						</properties>
 						<suiteXmlFiles>
 							<!-- TestNG suite XML files -->
 							<suiteXmlFile>testng.xml</suiteXmlFile>
