@@ -6,7 +6,7 @@ public class LoginPage {
 	@Test
 	public void testMeth1() {
 
-		System.out.println("this is test method 1");
+		System.out.println("this should not get executed");
 	}
 
 	@Test(groups={"smoke"})
