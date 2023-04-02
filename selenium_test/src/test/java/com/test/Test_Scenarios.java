@@ -18,10 +18,16 @@ public class Test_Scenarios {
 	}
 
 	@Test
-	public int simpleAddMethod(int a, int b) {
+	public void simpleAddMethod() {
+
+		addition(10, 20);
+	}
+
+	public int addition(int a, int b) {
 
 		int c = a + b;
 
 		return c;
+
 	}
 }
