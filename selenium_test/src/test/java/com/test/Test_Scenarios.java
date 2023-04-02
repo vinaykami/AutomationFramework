@@ -14,5 +14,14 @@ public class Test_Scenarios {
 
 			System.out.println("hello world!");
 		}
+
+	}
+
+	@Test
+	public int simpleAddMethod(int a, int b) {
+
+		int c = a + b;
+
+		return c;
 	}
 }
