@@ -39,9 +39,16 @@ public class Test_Scenarios {
 		return c;
 	}
 
-	public int division(int a, int b) {
+	public int mutliply(int a, int b) {
 
 		int c = a * b;
+
+		return c;
+	}
+	
+	public int division(int a, int b) {
+
+		int c = a / b;
 
 		return c;
 	}
