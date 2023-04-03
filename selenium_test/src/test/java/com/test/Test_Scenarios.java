@@ -5,7 +5,7 @@ import org.junit.Test;
 public class Test_Scenarios {
 
 	@Test
-	private void sampleTest() {
+	public void sampleTest() {
 		// TODO Auto-generated method stub
 
 		System.out.println("added this for test");
@@ -16,13 +16,16 @@ public class Test_Scenarios {
 		}
 
 	}
-	
+
 	// added test comments
 
 	@Test
 	public void simpleAddMethod() {
 
-		addition(10, 20);
+		System.out.println("Addition: " + addition(10, 20));
+		System.out.println("Substraction: " + substraction(23, 32));
+		System.out.println("Multiplication: " + mutliply(2, 45));
+		System.out.println("Division: " + division(320, 6));
 	}
 
 	public int addition(int a, int b) {
@@ -45,7 +48,7 @@ public class Test_Scenarios {
 
 		return c;
 	}
-	
+
 	public int division(int a, int b) {
 
 		int c = a / b;
