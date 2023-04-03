@@ -16,6 +16,8 @@ public class Test_Scenarios {
 		}
 
 	}
+	
+	// added test comments
 
 	@Test
 	public void simpleAddMethod() {
